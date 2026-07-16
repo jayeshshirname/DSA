@@ -9,6 +9,8 @@
  * }
  */
 class Solution {
+
+    // 83. Remove Duplicates from Sorted List
     public ListNode deleteDuplicates(ListNode head) {
         ListNode res = head;
 
