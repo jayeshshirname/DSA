@@ -5,16 +5,12 @@ class Solution:
 
         if len(p) != len(s):
             return False
-
         h = {}
-
         for i in range(len(p)):
             if p[i] in h and s[i] != h[p[i]]:
                 return False
-
             elif p[i] not in h and s[i] in h.values():
                 return False
-
             else:
                 h[p[i]] = s[i]
 
